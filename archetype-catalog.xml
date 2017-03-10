@@ -21,7 +21,7 @@
             <groupId>ch.fhnw.digibp.archetype</groupId>
             <artifactId>digibp-archetype-camunda-boot</artifactId>
             <version>1.0.0</version>
-            <repository>https://digibp.github.io/digibp-archetype-camunda-boot</repository>
+            <repository>https://dl.bintray.com/digibp/maven/</repository>
             <description>DigiBP Camunda Boot Archetype</description>
         </archetype>
     </archetypes>
