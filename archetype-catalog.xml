@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-catalog xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
-                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd">
-    <archetypes>
-        <archetype>
-            <groupId>ch.fhnw.digibp.archetype</groupId>
-            <artifactId>digibp-archetype-camunda-boot</artifactId>
-            <version>1.0.2</version>
-            <repository>https://digibp.github.io/digibp-archetype-camunda-boot</repository>
-            <description>DigiBP Camunda Boot Archetype</description>
-        </archetype>
-        <archetype>
-            <groupId>ch.fhnw.digibp.archetype</groupId>
-            <artifactId>digibp-archetype-camunda-boot</artifactId>
-            <version>1.0.1</version>
-            <repository>https://digibp.github.io/digibp-archetype-camunda-boot</repository>
-            <description>DigiBP Camunda Boot Archetype</description>
-        </archetype>
-        <archetype>
-            <groupId>ch.fhnw.digibp.archetype</groupId>
-            <artifactId>digibp-archetype-camunda-boot</artifactId>
-            <version>1.0.0</version>
-            <repository>https://dl.bintray.com/digibp/maven/</repository>
-            <description>DigiBP Camunda Boot Archetype</description>
-        </archetype>
-    </archetypes>
+<archetype-catalog xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0 http://maven.apache.org/xsd/archetype-catalog-1.0.0.xsd"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-catalog/1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <archetypes>
+    <archetype>
+      <groupId>ch.fhnw.digibp.archetype</groupId>
+      <artifactId>digibp-archetype-camunda-boot</artifactId>
+      <version>1.0.2</version>
+	  <repository>http://digibp.github.io/digibp-archetype-camunda-boot</repository>
+      <description>DigiBP Camunda Boot Archetype</description>
+    </archetype>
+	<archetype>
+		<groupId>ch.fhnw.digibp.archetype</groupId>
+		<artifactId>digibp-archetype-camunda-boot</artifactId>
+		<version>1.0.1</version>
+		<repository>http://digibp.github.io/digibp-archetype-camunda-boot</repository>
+		<description>DigiBP Camunda Boot Archetype</description>
+	</archetype>
+	<archetype>
+		<groupId>ch.fhnw.digibp.archetype</groupId>
+		<artifactId>digibp-archetype-camunda-boot</artifactId>
+		<version>1.0.0</version>
+		<repository>http://dl.bintray.com/digibp/maven</repository>
+		<description>DigiBP Camunda Boot Archetype</description>
+	</archetype>
+  </archetypes>
 </archetype-catalog>
