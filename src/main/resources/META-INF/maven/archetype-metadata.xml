@@ -3,6 +3,9 @@
     xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <requiredProperties>
+    <requiredProperty key="excludePatterns">
+      <defaultValue>**/.idea/**,*.iml,*.md,archetype.properties,**/camunda-license.txt,maven-user-settings.xml</defaultValue>
+    </requiredProperty>
     <requiredProperty key="$">
       <defaultValue>cat archetype.properties</defaultValue>
     </requiredProperty>
@@ -31,6 +34,7 @@
     <fileSet encoding="UTF-8">
       <directory></directory>
       <includes>
+        <include>.gitignore</include>
         <include>LICENSE</include>
       </includes>
     </fileSet>
