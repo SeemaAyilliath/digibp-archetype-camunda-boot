@@ -7,6 +7,7 @@
       <groupId>ch.fhnw.digibp.archetype</groupId>
       <artifactId>digibp-archetype-camunda-boot</artifactId>
       <version>1.0.2</version>
+	  <repository>https://digibp.github.io/digibp-archetype-camunda-boot/</repository>
       <description>DigiBP Camunda Boot Archetype</description>
     </archetype>
 	<archetype>
