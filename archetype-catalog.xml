@@ -6,23 +6,26 @@
     <archetype>
       <groupId>ch.fhnw.digibp.archetype</groupId>
       <artifactId>digibp-archetype-camunda-boot</artifactId>
-      <version>1.0.2</version>
-	  <repository>https://digibp.github.io/digibp-archetype-camunda-boot/</repository>
-      <description>DigiBP Camunda Boot Archetype</description>
+      <version>1.0.3</version>
+      <description>digibp-archetype-camunda-boot</description>
     </archetype>
 	<archetype>
-		<groupId>ch.fhnw.digibp.archetype</groupId>
-		<artifactId>digibp-archetype-camunda-boot</artifactId>
-		<version>1.0.1</version>
-		<repository>http://digibp.github.io/digibp-archetype-camunda-boot</repository>
-		<description>DigiBP Camunda Boot Archetype</description>
-	</archetype>
+      <groupId>ch.fhnw.digibp.archetype</groupId>
+      <artifactId>digibp-archetype-camunda-boot</artifactId>
+      <version>1.0.2</version>
+      <description>digibp-archetype-camunda-boot</description>
+    </archetype>
 	<archetype>
-		<groupId>ch.fhnw.digibp.archetype</groupId>
-		<artifactId>digibp-archetype-camunda-boot</artifactId>
-		<version>1.0.0</version>
-		<repository>http://dl.bintray.com/digibp/maven</repository>
-		<description>DigiBP Camunda Boot Archetype</description>
-	</archetype>
+      <groupId>ch.fhnw.digibp.archetype</groupId>
+      <artifactId>digibp-archetype-camunda-boot</artifactId>
+      <version>1.0.1</version>
+      <description>digibp-archetype-camunda-boot</description>
+    </archetype>
+	<archetype>
+      <groupId>ch.fhnw.digibp.archetype</groupId>
+      <artifactId>digibp-archetype-camunda-boot</artifactId>
+      <version>1.0.0</version>
+      <description>digibp-archetype-camunda-boot</description>
+    </archetype>
   </archetypes>
 </archetype-catalog>
