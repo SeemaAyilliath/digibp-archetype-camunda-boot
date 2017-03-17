@@ -3,33 +3,7 @@
 ## Summary
 These archetypes can be used to create a fresh Camunda Spring Boot project.
 
-## Camunda Enterprise Edition
-1. Select the `Camunda-Enterprise-Edition` maven profile.
-2. Create a `maven-user-settings.xml` file containing Camunda Maven repsository's username and password:
-    ```xml
-    <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
-              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
-                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
-        <servers>
-            <server>
-                <id>camunda-bpm-ee</id>
-                <username></username>
-                <password></password>
-            </server>
-        </servers>
-    </settings>
-    ```
-3. Add the `maven-user-settings.xml` to the IntelliJ or Eclipse project settings.
-4. Create a `camunda-license.txt` file under `src > main > resources` and paste your Camunda BPM license key:
-    ```text
-    --------------- BEGIN CAMUNDA BPM LICENSE KEY ---------------
-    
-    ---------------  END CAMUNDA BPM LICENSE KEY  ---------------
-    ```
-5. Important: Add to `maven-user-settings.xml` and `camunda-license.txt` to `.gitignore`
-
-## Creating a new Project
+## New Project Creation
 Create a new project using the archetype published here: https://digibp.github.io/digibp-archetype-camunda-boot
 
 ### Creating a Project in Maven
@@ -70,6 +44,37 @@ mvn org.apache.maven.plugins:maven-archetype-plugin:2.4:generate -DarchetypeCata
         - Set `Repository` to `https://digibp.github.io/digibp-archetype-camunda-boot`
 - Select the latest archetype `digibp-archetype-camunda-boot` from the appearing list
 - Click next and create the project
+
+## Project Profiles
+1. Camunda-Spring-Boot-JAR
+2. Camunda-Spring-Boot-WAR
+3. Camunda-Enterprise-Edition
+
+### Camunda Enterprise Edition
+1. Select the `Camunda-Enterprise-Edition` maven profile.
+2. Create a `maven-user-settings.xml` file containing Camunda Maven repsository's username and password:
+    ```xml
+    <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          https://maven.apache.org/xsd/settings-1.0.0.xsd">
+        <servers>
+            <server>
+                <id>camunda-bpm-ee</id>
+                <username></username>
+                <password></password>
+            </server>
+        </servers>
+    </settings>
+    ```
+3. Add the `maven-user-settings.xml` to the IntelliJ or Eclipse project settings.
+4. Create a `camunda-license.txt` file under `src > main > resources` and paste your Camunda BPM license key:
+    ```text
+    --------------- BEGIN CAMUNDA BPM LICENSE KEY ---------------
+    
+    ---------------  END CAMUNDA BPM LICENSE KEY  ---------------
+    ```
+5. Important: Add to `maven-user-settings.xml` and `camunda-license.txt` to `.gitignore`
 
 ## Releases
 
